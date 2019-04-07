@@ -2,21 +2,21 @@ package jdbcTest.one.mobel;
 
 public class ResumeInformation {
 
-	private String resumeId = "123";
+	private Long resumeId = 123L;
 	private String name = "ACE";
-	private String edu1EnterTime = "2011年";
-	private String edu1GraduateTime = "2015年";
+	private String edu1EnterTime = "2011";
+	private String edu1GraduateTime = "2015";
 	private String work1EnterTime = "2015年11月";
 	private String work1ExitTime = "2018年11月";
 	private String work1CompanyName = "阿里云";;
 	private String work1Postion = "java底层开发";;
 	private String work1Responsibility = "无尽物价奥斯卡的房间辣见识到了反馈静安寺离开的房间";
 
-	public String getResumeId() {
+	public Long getResumeId() {
 		return resumeId;
 	}
 
-	public void setResumeId(String resumeId) {
+	public void setResumeId(Long resumeId) {
 		this.resumeId = resumeId;
 	}
 
